@@ -1,0 +1,18 @@
+{
+  "name": "batchcraft-teaser",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "render": "npx remotion render src/index.ts BatchCraftTeaser out/batchcraft-teaser.mp4 --codec=h264 --pixel-format=yuv420p"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.234",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "remotion": "4.0.234"
+  },
+  "devDependencies": {
+    "@types/react": "18.3.12",
+    "typescript": "5.6.3"
+  }
+}
